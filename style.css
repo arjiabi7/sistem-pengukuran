@@ -1,0 +1,47 @@
+body{
+    background: url('bg.png');
+    margin: 0%;
+}
+
+.navbar{
+    background-color: #FD9727;
+}
+
+.navbar a{
+    background-color: #FD9727;
+    color: white;
+}
+
+.navbar #a{
+    font-size: 30px;
+    color: white;
+}
+
+.container #judul {
+    height: 40px; 
+    background: #434343; 
+    margin-top: 20px; 
+    border-radius: 50px; 
+    font-size: 18px;
+}
+
+.container #isi{
+    background: white; 
+    margin-top: 5px; 
+    border-radius: 15px; 
+    font-size: 18px; 
+    box-shadow: 1px 5px 10px, -1px 0;
+}
+
+#judul p{
+    color: white; 
+    text-align: center; 
+    font-size: 25px; 
+    font-family: century schoolbook;
+}
+
+/*style placeholder*/
+#jmlCorrect, #jmlRelia, #jmlUsa, #jmlEffi, #jmlInteg,::-webkit-input-placeholder{
+    text-align: center;
+    font-size: 15px;
+}
